@@ -17,7 +17,7 @@ function Login() {
         </div>
      
         <div className=" text-center fixed bottom-0 w-full">
-      <div className="pt-3 border-1 justify-center -py-2 bg-red-900">
+      <div className="py-3 pb-1 justify-center -py-2 bg-red-900">
       <p className="text-xs pb-2 opacity-50 text-white">
                 &copy; {new Date().getFullYear()} Liceo de Cagayan University.
                  All rights reserved.
