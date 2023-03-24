@@ -19,6 +19,7 @@ function StudentPage(userData) {
       <h1>
         Hi Stud {userData.userData.displayName}
       </h1>
+      <img src={userData.userData.photoURL}></img>
       <button onClick={handleLogout}>Logout</button>
     </div>
   )
