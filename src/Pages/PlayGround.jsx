@@ -10,6 +10,7 @@ function PlayGround() {
         <div className="relative">
           <div className="z-10 absolute w-full">
              {/* <StudentNavbar userData={userData.userData}/> */}
+             <CStudentNavbar/>
           </div>
           <div className="flex flex-col h-screen overflow-auto">
             <div className="mt-14"></div>
