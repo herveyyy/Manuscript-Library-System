@@ -3,6 +3,8 @@ import { auth, provider } from "../../firebaseConfig";
 import { signInWithPopup } from "firebase/auth";
 import { errorPrefix } from "@firebase/util";
 import { useNavigate } from "react-router-dom";
+import CStudentNavbar from "../components/copyNav";
+
 
 function Login({ setUser, user }) {
   const navigate = useNavigate();
@@ -26,9 +28,10 @@ function Login({ setUser, user }) {
       });
   };
   
-
   return (
     <div className="relative h-screen overflow-hidden bg-black">
+
+
       <img
         className="absolute z-0 object-cover w-full h-full blur-sm"
         src="src\assets\libraryBG.jpg"

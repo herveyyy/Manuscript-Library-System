@@ -1,20 +1,15 @@
-
-
-import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import StudentNavbar from "../components/navbar";
+import React from "react";
 import CStudentNavbar from "../components/copyNav";
 import Manuscript from "../components/Manuscript";
+import LiceoBG from '../assets/LiceoBG.jpg';
 
-function StudentPage(userData){
-//get userCredential from local storage and transfer the data to userData
-
-  return (
-<div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+function PlayGround() {
+    return (
+        <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
         <div className="max-w-5xl w-11/12 mx-auto"></div>
         <div className="relative">
           <div className="z-10 absolute w-full">
-            <StudentNavbar userData={userData.userData}/>
+             {/* <StudentNavbar userData={userData.userData}/> */}
           </div>
           <div className="flex flex-col h-screen overflow-auto">
             <div className="mt-14"></div>
@@ -54,9 +49,9 @@ function StudentPage(userData){
           </div>
         </div>
       </div>
-  
-  );
+	
+
+       );
 }
 
-export default StudentPage;
-
+export default PlayGround;
