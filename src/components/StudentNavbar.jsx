@@ -1,5 +1,4 @@
 
-//create a navbar component react js tailwind
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 function StudentNavbar(userData) {
@@ -16,8 +15,6 @@ function StudentNavbar(userData) {
   }
 
   return (
-
-       //create navbar that has home, news, about, username, email, logout and logo make it responsive and use tailwind css and react js use the userData to get the username and email. details must be on right the color must be maron
        <div>
        <nav className="flex items-center justify-between flex-wrap bg-red-900 p-2 absolute w-full">
          <div className="flex items-center flex-shrink-0 text-white mr-6">

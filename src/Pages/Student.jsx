@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import StudentNavbar from "../components/navbar";
+import StudentNavbar from "../components/StudentNavbar";
 import CStudentNavbar from "../components/copyNav";
 import Manuscript from "../components/Manuscript";
 
