@@ -24,7 +24,7 @@ function CStudentNavbar() {
     <div className="flex">
   <nav className="flex items-center justify-between flex-wrap bg-red-900 p-2 absolute w-full">
     <div className="flex items-center flex-shrink-0 text-white mr-6">
-      <img alt='logo' className="w-10 lg:10" src="src\assets\libraryLogo.png" />
+      <img alt='logo' className="w-10 lg:10" src={"static/images/libraryLogo.png"} />
       <span className="font-bold">Manuscript Library System</span>
     </div>
     <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
@@ -49,9 +49,14 @@ function CStudentNavbar() {
           <a href="#" className="font-bold block py-2 lg:mt-0 text-white hover:text-white mr-4">
             News
           </a>
-          <a href="#" className="font-bold block py-2 lg:mt-0 text-white hover:text-white mr-4">
+          <a href="#" className="font-bold block py-2 lg:mt-0 text-white hover:text-white  mr-4 ">
             About
           </a>
+          <div className="font-bold block py-2 lg:mt-0 text-white hover:text-white mr-4 ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 hover:cursor-pointer hover:border-2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+</svg>
+</div>
           </div>
           <div className="flex justify-end">
           <div className="flex items-center flex-shrink-0 text-white ml-4 lg:ml-6">
