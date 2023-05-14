@@ -47,7 +47,7 @@ function StudentPage(userData){
                     </div>
                         </div> 
                 <div className="flex justify-center items-center">
-                  <Manuscript />
+                  <Manuscript  />
                 </div>
               </div>
             </div>

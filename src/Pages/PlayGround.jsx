@@ -42,8 +42,8 @@ function PlayGround() {
 
                     </div>
                         </div> 
-                <div className="flex justify-center items-center">
-                  <Manuscript />
+                <div className="flex justify-center items-center my-10">
+                  <Manuscript  />
                 </div>
               </div>
             </div>
