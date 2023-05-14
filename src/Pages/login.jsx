@@ -34,21 +34,21 @@ function Login({ setUser, user }) {
 
       <img
         className="absolute z-0 object-cover w-full h-full blur-sm"
-        src="src/assets/libraryBG.jpg"
+        src="/static/images/libraryBG.jpg"
       />
       <img
         className="fixed z-20 left-12 top-4 w-36"
-        src="src/assets/libraryLogo.png"
+        src="/static/images/libraryLogo.png"
       />
       {/**Login Form */}
       <div className="container relative z-10 flex flex-col items-center w-[50vh] py-14 mx-auto top-28 border-gray-900 bg-red-900 rounded-lg md:my-32 shadow-2xl">
         <div className="flex flex-col items-center">
-          <img className="w-32 my-6" src="src/assets/liceo.png" />
+          <img className="w-32 my-6" src="/static/images/liceo.png" />
           <button
             onClick={handleLogin}
             className="px-16 py-2 rounded-md bg-yellow-500 my-5 mb-14"
           >
-            <img className="w-6" src="src/assets/google.svg"></img>
+            <img className="w-6" src={"/static/images/google.svg"}></img>
           </button>
           <p className="text-slate-200 text-lg">
             Use your university email to login.
